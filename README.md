@@ -3,7 +3,7 @@
 #Regular Port Scanner of a Target_IP ;
 
 
-#Usage: python ps.py -t $IP -p;
+#Usage: python ps.py -t $IP -p
 
 where==
 ps.py = script name;
@@ -13,4 +13,4 @@ $IP = IP address of your target;
 
 #If you want to Scan well-known ports (1-1024) on the target IP, then use: 
 
-python ps.py -t $IP;
+python ps.py -t $IP
